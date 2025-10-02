@@ -1,0 +1,13 @@
+{
+  "id" : "https://mziku.github.io/Ziku-IIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mziku/Ziku-IIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mziku.github.io/Ziku-IIIF/manifests/manifest-map.json",
+    "label" : "[Click to edit label]"
+  } ]
+}

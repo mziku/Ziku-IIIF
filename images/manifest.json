@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mziku.github.io/Ziku-IIIF/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in mziku/Ziku-IIIF project"
+        ]
+    },
+    "items": []
+}

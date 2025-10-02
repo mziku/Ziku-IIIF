@@ -1,0 +1,80 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mziku.github.io/Ziku-IIIF/manifests/manifest-map.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3f2297df-6ccd-4b3e-83d6-4e4f6cb405f0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f2cb286d-c299-442e-8c04-0b42a9c57654",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4964,
+      "width" : 4301,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ab4ae33a-9caf-45c1-9fc6-ffe1792c2599",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52504901k/f6/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52504901k/f6",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 4964,
+          "width" : 4301
+        },
+        "on" : "http://f2cb286d-c299-442e-8c04-0b42a9c57654"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://640013e6-2e18-4834-b146-890bce6a4de5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2640,
+      "width" : 3749,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2a3dee11-ccc7-4f27-b8ae-2698d4476d30",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/map_20251002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/map_20251002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 9897360,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2640,
+          "width" : 3749
+        },
+        "on" : "http://640013e6-2e18-4834-b146-890bce6a4de5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

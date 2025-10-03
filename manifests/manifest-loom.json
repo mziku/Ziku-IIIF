@@ -1,0 +1,180 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "homepage" : [ {
+    "format" : "text/html",
+    "id" : "https://archive.org/details/carpet-making-on-loom",
+    "label" : {
+      "en" : [ "Item Page on Internet Archive" ]
+    },
+    "type" : "Text"
+  } ],
+  "id" : "https://mziku.github.io/Ziku-IIIF/manifests/manifest-loom.json",
+  "items" : [ {
+    "height" : 2539,
+    "id" : "https://iiif.archive.org/iiif/carpet-making-on-loom/canvas",
+    "items" : [ {
+      "id" : "https://iiif.archive.org/iiif/carpet-making-on-loom/annotationPage/1",
+      "items" : [ {
+        "body" : {
+          "format" : "image/jpeg",
+          "height" : 2539,
+          "id" : "https://iiif.archive.org/image/iiif/3/carpet-making-on-loom%2Fcarpet%20making%20on%20loom.jpg/full/max/0/default.jpg",
+          "service" : [ {
+            "id" : "https://iiif.archive.org/image/iiif/3/carpet-making-on-loom%2Fcarpet%20making%20on%20loom.jpg",
+            "profile" : "level2",
+            "type" : "ImageService3"
+          } ],
+          "type" : "Image",
+          "width" : 3816
+        },
+        "id" : "https://iiif.archive.org/iiif/carpet-making-on-loom/annotation/1",
+        "motivation" : "painting",
+        "target" : "https://iiif.archive.org/iiif/carpet-making-on-loom/canvas",
+        "type" : "Annotation"
+      } ],
+      "type" : "AnnotationPage"
+    } ],
+    "label" : {
+      "none" : [ "1" ]
+    },
+    "type" : "Canvas",
+    "width" : 3816
+  } ],
+  "label" : {
+    "none" : [ "Carpet Making On Loom" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "identifier" ]
+    },
+    "value" : {
+      "none" : [ "carpet-making-on-loom" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "mediatype" ]
+    },
+    "value" : {
+      "none" : [ "image" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "collection" ]
+    },
+    "value" : {
+      "none" : [ "opensource_image" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "creator" ]
+    },
+    "value" : {
+      "none" : [ "Aggelos Sakkas" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "date" ]
+    },
+    "value" : {
+      "none" : [ "2025-05" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "scanner" ]
+    },
+    "value" : {
+      "none" : [ "Internet Archive HTML5 Uploader 1.7.0" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "subject" ]
+    },
+    "value" : {
+      "none" : [ "loom", "carpet", "tradition" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "title" ]
+    },
+    "value" : {
+      "none" : [ "Carpet Making On Loom" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "addeddate" ]
+    },
+    "value" : {
+      "none" : [ "2025-10-03 14:59:35" ]
+    }
+  } ],
+  "partOf" : [ {
+    "id" : "https://iiif.archive.org/iiif/opensource_image/collection.json",
+    "type" : "Collection"
+  } ],
+  "provider" : [ {
+    "homepage" : [ {
+      "format" : "text/html",
+      "id" : "https://archive.org",
+      "label" : {
+        "en" : [ "Internet Archive Homepage" ]
+      },
+      "type" : "Text"
+    } ],
+    "id" : "https://archive.org",
+    "label" : {
+      "en" : [ "The Internet Archive" ]
+    },
+    "logo" : [ {
+      "format" : "image/png",
+      "height" : 79,
+      "id" : "https://archive.org/images/glogo.png",
+      "type" : "Image",
+      "width" : 79
+    } ],
+    "type" : "Agent"
+  } ],
+  "rendering" : [ {
+    "format" : "application/x-bittorrent",
+    "id" : "https://archive.org/download/carpet-making-on-loom/carpet-making-on-loom_archive.torrent",
+    "label" : {
+      "en" : [ "Archive BitTorrent" ]
+    },
+    "type" : "Dataset"
+  } ],
+  "rights" : "http://creativecommons.org/licenses/by-sa/4.0/",
+  "seeAlso" : [ {
+    "format" : "application/json",
+    "id" : "https://archive.org/metadata/carpet-making-on-loom",
+    "label" : {
+      "en" : [ "Item Metadata" ]
+    },
+    "type" : "Metadata"
+  } ],
+  "summary" : {
+    "none" : [ "Carpet making on traditional loom, at Rizarios Crafting School in Zagorochoria, Greece." ]
+  },
+  "thumbnail" : [ {
+    "format" : "image/jpeg",
+    "height" : 120,
+    "id" : "https://iiif.archive.org/image/iiif/2/carpet-making-on-loom%2f__ia_thumb.jpg/full/180,/0/default.jpg",
+    "service" : [ {
+      "@id" : "https://iiif.archive.org/image/iiif/2/carpet-making-on-loom%2F__ia_thumb.jpg",
+      "@type" : "ImageService2",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    } ],
+    "type" : "Image",
+    "width" : 180
+  }, {
+    "format" : "image/jpeg",
+    "height" : 128,
+    "id" : "https://iiif.archive.org/image/iiif/2/carpet-making-on-loom%2fcarpet%20making%20on%20loom_thumb.jpg/full/192,/0/default.jpg",
+    "service" : [ {
+      "@id" : "https://iiif.archive.org/image/iiif/2/carpet-making-on-loom%2Fcarpet%20making%20on%20loom_thumb.jpg",
+      "@type" : "ImageService2",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    } ],
+    "type" : "Image",
+    "width" : 192
+  } ],
+  "type" : "Manifest"
+}

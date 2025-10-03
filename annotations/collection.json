@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://mziku.github.io/Ziku-IIIF/annotations/rprvd8a15a40-9948-4613-8670-f989a785e454_annotations.json" ],
+  "otherContent" : [ "https://mziku.github.io/Ziku-IIIF/annotations/rprvd8a15a40-9948-4613-8670-f989a785e454_annotations.json", "https://mziku.github.io/Ziku-IIIF/annotations/wool_loom" ],
   "@id" : "https://mziku.github.io/Ziku-IIIF/annotations/collection.json",
   "label" : "All annotations loaded in mziku/Ziku-IIIF project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"

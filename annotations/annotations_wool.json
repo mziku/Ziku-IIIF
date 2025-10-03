@@ -1,0 +1,72 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mziku.github.io/Ziku-IIIF/annotations/annotations_wool.json",
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "5477acd3-5d1f-43b0-9e32-28df1a2d9adb",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "The weaver is seated at a vertical carpet loom, interlacing dyed wool threads to form patterned textiles. In hand, the weaver holds a traditional carpet-making tool—commonly a knife to cut excess thread. This combination of loom and tool reflects the artisanal techniques of handmade carpet production, where precision and rhythm are essential to creating durable and decorative woven works."
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv9bd4d7b4-ec4b-453e-890b-66da70568172",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:1586.2928466796875,411.0737704918033,1935.8033847496158,1807.2131147540981"
+      }
+    }
+  }, {
+    "id" : "e15ef744-bcce-4043-a340-d34b27a95c85",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "Carpet-making tool."
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv9bd4d7b4-ec4b-453e-890b-66da70568172",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:2073.893719866559,242.11538461538427,740.5174825174827,984.020979020979"
+      }
+    }
+  }, {
+    "id" : "98d58fcd-e498-4eed-b013-a9b0f8b9915a",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "The <strong data-start=\"51\" data-end=\"71\">vertical threads</strong> stretched tightly between the top and bottom beams are called the <strong data-start=\"138\" data-end=\"146\">warp threads.</strong>"
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv9bd4d7b4-ec4b-453e-890b-66da70568172",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:132.5370510608161,128.70279720279697,2134.8252002742747,1841.2867132867132"
+      }
+    }
+  } ]
+}

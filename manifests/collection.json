@@ -21,5 +21,11 @@
       "none" : [ "Carpet Making On Loom" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://mziku.github.io/Ziku-IIIF/manifests/spinningwheel.json",
+    "label" : {
+      "none" : [ "Spinning Wheel" ]
+    },
+    "type" : "Manifest"
   } ]
 }

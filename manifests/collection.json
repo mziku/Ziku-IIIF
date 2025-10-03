@@ -15,5 +15,11 @@
       "none" : [ "Carpet Making On Loom" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://mziku.github.io/Ziku-IIIF/manifests/loom.json",
+    "label" : {
+      "none" : [ "Carpet Making On Loom" ]
+    },
+    "type" : "Manifest"
   } ]
 }

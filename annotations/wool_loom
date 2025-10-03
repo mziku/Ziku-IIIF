@@ -1,0 +1,72 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mziku.github.io/Ziku-IIIF/annotations/wool_loom",
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "ffaf9751-4fa3-49eb-a000-7a90a75512d9",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "A person engaged in the traditional craft of spinning wool fibers into yarn using a spinning wheel. The spinner drafts the wool by hand and twists it with the wheel’s motion to produce continuous thread for weaving or knitting."
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv1adab59a-2dd7-4b52-964a-f043cabf36a2",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "type" : "FragmentSelector",
+        "value" : "xywh=pixel:581.4429631240001,946.3442389758186,3161.6501367604237,4654.293029871977"
+      }
+    }
+  }, {
+    "id" : "bbda08ad-f967-4625-9cdf-d2d476e936c6",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "the spinning wheel."
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv1adab59a-2dd7-4b52-964a-f043cabf36a2",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:1818.1428340038228,2568.0341394025604,2073.3541963015646,2950.8733997155055"
+      }
+    }
+  }, {
+    "id" : "19c69bf0-cff7-46b8-82f1-4bc823468755",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : {
+      "type" : "TextualBody",
+      "language" : "fr",
+      "format" : "text/html",
+      "value" : "The produced yarn."
+    },
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : {
+        "id" : "https://pervisum.inha.fr/api/prv6e5b0d85-3bb3-4426-8c9e-f3641032dbbf/manifest-edition/canvas/prv1adab59a-2dd7-4b52-964a-f043cabf36a2",
+        "type" : "Canvas"
+      },
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:162.9007287406653,2714.2873399715504,2163.6870554765287,2791.715504978663"
+      }
+    }
+  } ]
+}
